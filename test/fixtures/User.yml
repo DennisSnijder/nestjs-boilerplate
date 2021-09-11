@@ -1,0 +1,7 @@
+
+entity: User
+items:
+  user0:
+    email: test@snijder.io
+    salt: $2b$10$W9PbsNM8DoNWyj8OqghrJe
+    password: $2b$10$W9PbsNM8DoNWyj8OqghrJeUTpPJjIlydFe8taC6LlRNr4OrjgBfTC # password = "test-password"
