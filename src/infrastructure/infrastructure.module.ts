@@ -2,12 +2,13 @@ import { Module } from "@nestjs/common";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 
 import databaseConfig from '../_config/database.config';
+import jwtConfig from '../_config/jwt.config';
 import { TypeOrmModule } from "@nestjs/typeorm";
 
 @Module({
     imports: [
         ConfigModule.forRoot({
-            load: [databaseConfig],
+            load: [databaseConfig, jwtConfig],
         }),
 
         //database module
