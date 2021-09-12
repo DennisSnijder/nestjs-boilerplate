@@ -6276,6 +6276,13 @@ ts-node@^10.2.1:
     make-error "^1.1.1"
     yn "3.1.1"
 
+ts-token-generator@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/ts-token-generator/-/ts-token-generator-1.0.4.tgz#0c00ae5c548ba014ee32f94e9388118d78a7bb89"
+  integrity sha512-Gn4Ro3aL3TuuYHFux3un5xTBHbxAOE5EYO3gkiHGE97olpYKDQHGWtAd7Vc3djlShG9g2nCk7QuASQW1SzgziA==
+  dependencies:
+    uuid "^3.3.2"
+
 tsconfig-paths-webpack-plugin@3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/tsconfig-paths-webpack-plugin/-/tsconfig-paths-webpack-plugin-3.5.1.tgz#e4dbf492a20dca9caab60086ddacb703afc2b726"
