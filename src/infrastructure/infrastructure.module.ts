@@ -1,8 +1,8 @@
 import { Module } from "@nestjs/common";
 import { ConfigModule, ConfigService } from "@nestjs/config";
 
-import databaseConfig from '../_config/database.config';
-import jwtConfig from '../_config/jwt.config';
+import databaseConfig from '@config/database.config';
+import jwtConfig from '@config/jwt.config';
 import { TypeOrmModule } from "@nestjs/typeorm";
 
 @Module({

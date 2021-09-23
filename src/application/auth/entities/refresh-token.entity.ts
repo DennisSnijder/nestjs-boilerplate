@@ -1,6 +1,6 @@
-import { Column, Entity, ManyToOne, PrimaryColumn, PrimaryGeneratedColumn } from "typeorm";
-import { User } from "../../user/user.entity";
+import { Column, Entity, ManyToOne, PrimaryColumn } from "typeorm";
 import { TokenGenerator } from 'ts-token-generator';
+import { User } from "@app/user/user.entity";
 
 @Entity()
 export class RefreshToken {
